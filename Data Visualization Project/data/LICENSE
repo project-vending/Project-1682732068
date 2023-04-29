@@ -1,0 +1,14 @@
+
+import os
+
+# Define the project directory
+project_dir = 'Data Visualization Project'
+
+# Define the file to create
+file_name = 'LICENSE'
+
+# Create the file in the data directory
+os.makedirs(os.path.join(project_dir, 'data'), exist_ok=True)
+with open(os.path.join(project_dir, 'data', file_name), 'w') as f:
+    license_text = 'Put your license text here'
+    f.write(license_text)
