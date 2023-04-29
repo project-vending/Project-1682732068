@@ -1,0 +1,17 @@
+python
+import os
+
+# Define the project directory
+project_dir = "Data Visualization Project"
+
+# Define the visualization directory
+vis_dir = "visualization"
+
+# Define the requirements file
+requirements_file = "requirements.txt"
+
+# Create the requirements file
+with open(os.path.join(project_dir, vis_dir, requirements_file), "w") as f:
+    f.write("seaborn\n")
+    f.write("plotly\n")
+    f.write("bokeh\n")
