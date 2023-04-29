@@ -1,0 +1,1 @@
+#  Data Visualization Project: This project focuses on creating insightful visualizations of large and complex data sets using Python libraries such as Seaborn, Plotly, and Bokeh. You can work on a real-world data set such as COVID-19 data or MovieLens data and create interactive visualizations to gain insights and communicate findings.
