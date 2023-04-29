@@ -1,0 +1,23 @@
+
+import os
+
+# Define the project directory
+project_dir = 'Data Visualization Project'
+
+# Define the data directory
+data_dir = os.path.join(project_dir, 'data')
+
+# Define the requirements file
+requirements_file = os.path.join(data_dir, 'requirements.txt')
+
+# Define the requirements to add
+requirements = [
+    'pandas',
+    'seaborn',
+    'plotly',
+    'bokeh'
+]
+
+# Write the requirements to the file
+with open(requirements_file, 'w') as f:
+    f.write('\n'.join(requirements))
